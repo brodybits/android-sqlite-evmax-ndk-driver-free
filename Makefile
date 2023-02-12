@@ -1,4 +1,4 @@
-OUTPUT_JAR := sqlc-evplus-ndk-driver.jar
+OUTPUT_JAR := sqlc-evmax-ndk-driver.jar
 
 all: ndkbuild
 

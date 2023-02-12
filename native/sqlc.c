@@ -282,6 +282,24 @@ int sj(const char * j, int tl, char * a)
         ti += 2;
         break;
       }
+    } else if (c == '!') {
+      // XXX TODO TODO TODO TODO TODO
+      switch(j[ti+1]) {
+      case '!':
+        a[ai++] = '!';
+        ti += 2;
+        break;
+
+      case '|':
+        a[ai++] = '/';
+        ti += 2;
+        break;
+
+      default:
+        // XXX TODO what to do??
+        ti += 2;
+        break;
+      }
     } else if (c >= 0xf0) {
       a[ai++]=j[ti++];
       a[ai++]=j[ti++];

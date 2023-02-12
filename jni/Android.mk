@@ -9,7 +9,7 @@ include $(CLEAR_VARS)
 
 LOCAL_LDLIBS := -llog
 
-LOCAL_MODULE    := sqlc-evplus-ndk-driver
+LOCAL_MODULE    := sqlc-evmax-ndk-driver
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../sqlite-amalgamation
 

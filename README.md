@@ -1,19 +1,20 @@
-# android-sqlite-evplus-ndk-driver-free build (with evplus-ext user defined functions)
+# android-sqlite-evmax-ndk-driver-free build (with evmax-ext user defined functions)
 
-Provides Android NDK build of SQLite with an optimized JSON-based data interface and a workaround for large SELECT results, with a low-level API for Cordova SQLite evplus plugin versions.
+Provides Android NDK build of SQLite with an optimized JSON-based data interface and workarounds for large SELECT results and slash character issue with Capacitor, with a low-level API for Cordova SQLite evmax plugin versions.
 
 Based on:
 
+- [`storesafe/android-sqlite-evplus-ndk-driver-free`](https://github.com/storesafe/android-sqlite-evplus-ndk-driver-free)
 - [`storesafe/android-sqlite-evcore-ndk-driver-free`](https://github.com/storesafe/android-sqlite-evcore-ndk-driver-free)
 - [`liteglue/Android-sqlite-native-driver`](https://github.com/liteglue/Android-sqlite-native-driver).
 
 by Christopher J. Brody aka Chris Brody mailto: <chris.brody+brodybits@gmail.com>
 
-License: GPL v3 (<https://www.gnu.org/licenses/gpl-3.0.txt>) or commercial license options
+License: GPL v3 (<https://www.gnu.org/licenses/gpl-3.0.txt>) or evmax commercial license options
 
 ## About
 
-android-sqlite-evplus-ndk-driver-free provides build of a JAR with the following:
+android-sqlite-evmax-ndk-driver-free provides build of a JAR with the following:
 - single `EVNDKDriver` class with native Java interface to the needed C functions
 - automatic build for _current_ _Android NDK targets (`armeabi-v7a`, `x86`, `x86_64`, `arm64-v8a`)_ that is accessible from the native Java interface, with the following user defined functions:
   - `REGEXP` integrated from [brodybits / sqlite3-regexp-cached](https://github.com/brodybits/sqlite3-regexp-cached) (based on <http://git.altlinux.org/people/at/packages/?p=sqlite3-pcre.git> by Alexey Tourbin, public domain)
