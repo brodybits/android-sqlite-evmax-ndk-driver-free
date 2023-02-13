@@ -285,12 +285,12 @@ int sj(const char * j, int tl, char * a)
     } else if (c == '!') {
       // XXX TODO TODO TODO TODO TODO
       switch(j[ti+1]) {
-      case '!':
+      case '1':
         a[ai++] = '!';
         ti += 2;
         break;
 
-      case '|':
+      case '2':
         a[ai++] = '/';
         ti += 2;
         break;
