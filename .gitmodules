@@ -13,3 +13,6 @@
 [submodule "libb64-core"]
 	path = libb64-core
 	url = https://github.com/brodybits/libb64-core
+[submodule "sqlite3-eu"]
+	path = sqlite3-eu
+	url = https://github.com/brodybits/sqlite3-eu.git

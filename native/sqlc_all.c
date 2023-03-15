@@ -7,6 +7,8 @@
 
 #include "sqlite3_base64.c"
 
+#include "sqlite3_eu.c"
+
 #include "sqlc.h" /* types needed for EVNDKDriver_JNI.c */
 
 #include "EVNDKDriver_JNI.c"
