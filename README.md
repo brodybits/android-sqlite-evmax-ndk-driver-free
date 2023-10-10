@@ -32,7 +32,7 @@ Minimum API level: __android-22 (Android 5.1)__
 
 ### SQLite version
 
-    __3.40.0__
+    __3.43.1__
 
 ### android-ndk version notes
 
@@ -71,6 +71,7 @@ FUTURE TODO: better documentation of API and some internal details
 - `-DSQLITE_ENABLE_FTS5`
 - `-DSQLITE_ENABLE_RTREE`
 - `-DSQLITE_ENABLE_JSON1`
+- `-DSQLITE_ENABLE_MATH_FUNCTIONS`
 
 New stable default page size and cache size (<https://sqlite.org/pgszchng2016.html>):
 
